@@ -1,0 +1,211 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/project" />
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_project"
+            android:id="@+id/selectproject"
+            android:layout_gravity="left|center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:gravity="right" />
+
+        <Spinner
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner"
+            android:layout_below="@+id/RG"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="10dp" />
+    </FrameLayout>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/RG"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Work" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Study" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Relax" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Meeting"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Lunch"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/imageWork"
+                android:background="@drawable/tr_work"
+                android:src="@drawable/tr_work"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/work" />
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/imageStudy"
+                android:background="@drawable/tr_study"
+                android:src="@drawable/tr_study"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/imageMeeting"
+                android:background="@drawable/tr_meet"
+                android:src="@drawable/tr_meet"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="20dp" />
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/imageRelax"
+                android:background="@drawable/tr_relax"
+                android:src="@drawable/tr_relax"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/imageLunch"
+                android:background="@drawable/tr_lunch"
+                android:scaleType="centerCrop"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/tr_lunch"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chrono"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="@drawable/line"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="stats"
+            android:id="@+id/statistics"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/stats"
+            android:layout_marginRight="35dp" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:text="proj"
+            android:id="@+id/project"
+            android:background="@drawable/projs"
+            android:layout_marginRight="35dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/settings"
+            android:scaleType="centerCrop"
+            android:background="@drawable/sets"
+            android:layout_marginRight="35dp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="exit"
+            android:id="@+id/exit"
+            android:background="@drawable/exit" />
+    </LinearLayout>
+
+</RelativeLayout>

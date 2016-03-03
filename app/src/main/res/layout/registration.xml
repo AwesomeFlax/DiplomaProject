@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:id="@+id/reg_note"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:textSize="25sp"
+        android:textColor="#ff3a3a3a" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="5dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/line"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_login"
+        android:id="@+id/login_note"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#ff3a3a3a" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:id ="@+id/name"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/frame"
+        android:hint="@string/hint_login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_pass"
+        android:id="@+id/pass_twice"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#ff3a3a3a" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:id="@+id/pass1"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/frame"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint_pass" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:id="@+id/pass2"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/frame"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint_pass" />
+
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton android:background="@drawable/reg_sprite"
+                android:id="@+id/registrr"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/registration"
+                android:layout_gravity="center_horizontal" />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:layout_gravity="center"
+                android:textColor="@android:color/background_light"
+                android:id="@+id/reg_mess"
+                android:textSize="11dp" />
+
+        </FrameLayout>
+
+</LinearLayout>

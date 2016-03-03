@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/imageView7"
+            android:background="@drawable/project_header" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/projects"
+            android:id="@+id/textView2"
+            android:textSize="22dp"
+            android:textColor="@android:color/background_light"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="17dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnewproject"
+        android:id="@+id/textView28"
+        android:layout_marginTop="60dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="50dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:id="@+id/input"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/frame"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/add_new_proj_hint" />
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="33dp"
+            android:text="ok"
+            android:id="@+id/ok"
+            android:background="@drawable/ok"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:id="@+id/imageView8"
+        android:background="@drawable/prosloyka"
+        android:layout_marginTop="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3d3d3d">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="visible"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/num_1"
+                android:layout_weight="2"
+                android:text="1."
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/name_1"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:gravity="center|center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="/"
+                android:id="@+id/ed_1"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/edit"
+                android:layout_margin="3dp" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="X"
+                android:id="@+id/del_1"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/delete"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/num_2"
+                android:layout_weight="2"
+                android:text="2."
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/name_2"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:gravity="center|center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="/"
+                android:id="@+id/ed_2"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/edit"
+                android:layout_margin="3dp" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="X"
+                android:id="@+id/del_2"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/delete"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/num_3"
+                android:layout_weight="2"
+                android:text="3."
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/name_3"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:gravity="center|center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="/"
+                android:id="@+id/ed_3"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/edit"
+                android:layout_margin="3dp" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="X"
+                android:id="@+id/del_3"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/delete"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="170dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/num_4"
+                android:layout_weight="2"
+                android:text="4."
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/name_4"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:gravity="center|center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="/"
+                android:id="@+id/ed_4"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/edit"
+                android:layout_margin="3dp" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="X"
+                android:id="@+id/del_4"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/delete"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="220dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/num_5"
+                android:layout_weight="2"
+                android:text="5."
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/name_5"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:gravity="center|center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="/"
+                android:id="@+id/ed_5"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/edit"
+                android:layout_margin="3dp" />
+
+            <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:text="X"
+                android:id="@+id/del_5"
+                android:layout_weight="2"
+                android:gravity="center_vertical|center_horizontal"
+                android:visibility="invisible"
+                android:textColor="@android:color/background_light"
+                android:background="@drawable/delete"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

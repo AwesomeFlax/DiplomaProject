@@ -1,0 +1,52 @@
+<resources>
+    //мои данные
+    <string name="authorization">A U T H O R I Z A T I O N</string>
+    <string name="login_menu">LOGIN</string>
+    <string name="registration">R E G I S T R A T I O N</string>
+    <string name="reg_menu">REGISTRATION</string>
+    <string name="hello">Hi, </string>
+    <string name="input_login">Input login:</string>
+    <string name="input_pass">Input password (twice):</string>
+    <string name="register">REGISTER</string>
+    <string name="reg_success">New user successfully registered!</string>
+    <string name="reg_alert">Make sure that passwords are same!</string>
+    <string name="wait">Fetching data…</string>
+    <string name="apply">APPLY</string>
+    <string name="work">Work</string>
+    <string name="relax">Relax</string>
+    <string name="study">Study</string>
+    <string name="lunch">Lunch</string>
+    <string name="meeting">Meeting</string>
+    <string name="sound">Sound</string>
+    <string name="settigs_set">Setting are set, well done!</string>
+    <string name="bluetooth" translatable="false">Bluetooth</string>
+    <string name="wifi" translatable="false">Wi-Fi</string>
+    <string name="settings">S E T T I N G S</string>
+    <string name="used_name">User with this login is allredy registered!</string>
+
+    <string name="bold_font" translatable="false">fonts/GothamProBold.ttf</string>
+    <string name="regular_font" translatable="false">fonts/GothamProRegular.ttf</string>
+    <string name="medium_font" translatable="false">fonts/GothamProMedium.ttf</string>
+
+    //лучше не трогать
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="app_name" translatable="false">DiplomaProject</string>
+    <string name="stats">S T A T I S T I C S</string>
+    <string name="calendar">C A L E N D A R</string>
+    <string name="extended">OPEN EXTENDED</string>
+    <string name="selecteddate">Selected date is</string>
+    <string name="askforselect">Choose a date for analysis</string>
+    <string name="notfound">Stats for selected day were not found!</string>
+    <string name="onecolor">Turn on blue theme: </string>
+    <string name="timer">Timer</string>
+    <string name="projects">P R O J E C T S</string>
+    <string name="addnewproject">Add new project:</string>
+    <string name="newprojectsuccess">New project added successfully!</string>
+    <string name="deleted">Project successfully deleted</string>
+    <string name="hint_login">Login</string>
+    <string name="hint_pass">Password</string>
+    <string name="select_project">Select project:</string>
+    <string name="add_new_proj_hint">Project name</string>
+    <string name="timer_seted">Timer setted  successfully!</string>
+</resources>

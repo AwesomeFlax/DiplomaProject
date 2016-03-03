@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/calendar_header"
+            android:src="@drawable/statistics_header" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stats"
+            android:id="@+id/stat_header"
+            android:textSize="22dp"
+            android:textColor="@android:color/background_light"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="17dp" />
+    </FrameLayout>
+
+    <LinearLayout android:id="@+id/chart" android:orientation="horizontal"
+        android:layout_width="fill_parent" android:layout_height="320dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work"
+        android:id="@+id/textView15"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:layout_marginTop="-10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lunch"
+        android:id="@+id/textView17"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relax"
+        android:id="@+id/textView16"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meeting"
+        android:id="@+id/textView18"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/study"
+        android:id="@+id/textView19"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:layout_width="226dp"
+            android:layout_height="38dp"
+            android:text="@string/extended"
+            android:id="@+id/extended"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/reg_sprite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:text="@string/extended"
+            android:textColor="@android:color/background_light"
+            android:textSize="11dp" />
+    </FrameLayout>
+
+</LinearLayout>

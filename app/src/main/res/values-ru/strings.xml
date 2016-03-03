@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="authorization">А В Т О Р И З А Ц И Я</string>
+    <string name="hello">Привет,</string>
+    <string name="input_login">Введите логин:</string>
+    <string name="input_pass">Введите пароль (дважды):</string>
+    <string name="register">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="registration">Р Е Г И С Т Р А Ц И Я</string>
+    <string name="reg_alert">Убедитесь, что пароли одинаковые!</string>
+    <string name="reg_success">Новый пользователь успешно зарегистирован!</string>
+    <string name="wait">Соединение с сервером…</string>
+    <string name="apply">ПРИМЕНИТЬ</string>
+    <string name="lunch">Обед</string>
+    <string name="meeting">Совещание</string>
+    <string name="relax">Отдых</string>
+    <string name="study">Обучение</string>
+    <string name="work">Работа</string>
+    <string name="sound">Звук</string>
+    <string name="settigs_set">Отлично, настройки применены!</string>
+    <string name="settings">Н А С Т Р О Й К И</string>
+    <string name="used_name">Пользователь с таким именем уже зарегистирован!</string>
+    <string name="stats">С Т А Т И С Т И К А</string>
+    <string name="calendar">К А Л Е Н Д А Р Ь</string>
+    <string name="extended">ОТКРЫТЬ РАСШИРЕННУЮ</string>
+    <string name="selecteddate">Выбранная дата </string>
+    <string name="askforselect">Выберите дату для анализа</string>
+    <string name="notfound">Статистика за этот день не найдена!</string>
+    <string name="onecolor">Включить голубую тему:</string>
+    <string name="timer">Таймер</string>
+    <string name="addnewproject">Добавить новый проект:</string>
+    <string name="projects">П Р О Е К Т Ы</string>
+    <string name="newprojectsuccess">Новый проект успешно добавлен!</string>
+    <string name="deleted">Проект успешно удален</string>
+    <string name="login_menu">ВОЙТИ</string>
+    <string name="reg_menu">РЕГИСТРАЦИЯ</string>
+    <string name="hint_login">Логин</string>
+    <string name="hint_pass">Пароль</string>
+    <string name="select_project">Выберите проект:</string>
+    <string name="add_new_proj_hint">Имя проекта</string>
+    <string name="timer_seted">Таймер успешно установлен!</string>
+</resources>
